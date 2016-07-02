@@ -1,0 +1,1246 @@
+/*general design for the website */
+
+
+html, body
+{
+    height: 99%;
+}
+
+body
+{
+
+    padding: 0px;
+    background-image: url("check4.jpg");
+    background-color: #cccccc;
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+h1, h2, h3
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Englebert', sans-serif;
+    color: #2F74D0;
+}
+
+h3
+{
+    font-weight: 400;
+    font-size: 2.00em;
+    color: #8B2287;
+}
+
+p, ol, ul
+{
+    margin-top: 0px;
+}
+
+
+
+p
+{
+    line-height: 180%;
+}
+
+strong
+{
+}
+
+a
+{
+    color: #0066CC;
+}
+
+
+
+a img
+{
+    border: none;
+}
+
+img.border
+{
+}
+
+img.alignleft
+{
+    float: left;
+}
+
+img.alignright
+{
+    float: right;
+}
+
+img.aligncenter
+{
+    margin: 0px auto;
+}
+
+hr
+{
+    display: none;
+}
+
+/** WRAPPERS */
+
+#wrapper
+{
+    overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,.10);
+    border-radius: 40px;
+}
+
+#topwrapper
+{
+    width: 1070px;
+    overflow: hidden;
+    background: #FFFFFF;
+    background-image: url("note5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,.10);
+    border-radius: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    color: black;
+}
+
+#wrappertest
+{
+    overflow: hidden;
+    background:  url("blue6.png");
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,.10);
+    border-radius: 40px;
+}
+
+#topwrappertest
+{
+    width: 1070px;
+    height:690px;
+    overflow: hidden;
+    background: #FFFFFF;
+    background-image: url("blue1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,.10);
+    border-radius: 40px;
+    font-family: 'Open Sans', sans-serif;
+   
+    font-size: 14pt;
+    color: black;
+    background-color:white;
+
+}
+
+/** wrapper of About page */
+
+#topwrapperabout
+{
+    width: 1070px;
+    overflow: hidden;
+    background: #FFFFFF;
+    background-image: url("blue3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,.10);
+    border-radius: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    color: black;
+    background-color:white;
+
+}
+
+/** top of Song page */
+
+#top_songpage
+{
+    width: 1200px;
+    height: 800px;
+    overflow: hidden;
+    background: #FFFFFF;
+    background-image: url("preview3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,.10);
+    border-radius: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+    color: black;
+
+}
+
+/** top of Artist page */
+
+#top_artistpage
+{
+    width: 1400px;
+    height: 920px;
+    overflow: hidden;
+    background: #FFFFFF;
+    background-image: url("preview3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,.10);
+    border-radius: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+    color: black;
+
+}
+
+/** top of Options page */
+
+#top_optionspage
+{
+    width: 1400px;
+    height: 1000px;
+    overflow: hidden;
+    background: #FFFFFF;
+    background-image: url("preview3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,.10);
+    border-radius: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+    color: black;
+
+}
+
+
+#top_optionspage a:link {
+   font-size: 13pt;
+}
+
+#top_optionspage a:hover {
+    background-color: 	#FFFF66;
+}
+
+#top_optionspage  h1{
+	
+     font-family: 'Open Sans', sans-serif;
+     font-size: 15pt;
+     color:black;
+     font-weight: 8px;
+
+ 
+	
+}
+
+#top_optionspage  h3{
+
+	display:inline;
+     	font-family: 'Open Sans', sans-serif;
+     	font-size: 28pt;
+	color:#660099;
+	font-weight: 3px;
+     	background-color:#00FFCC;
+ 
+	
+}
+
+#top_optionspage  h4{
+
+	display:inline;
+    	font-family: 'Englebert', sans-serif;
+    	color: #2F74D0;
+	font-size: 28pt;
+	font-weight: 3px;
+}
+
+
+/* design of Artist page */
+
+#top_artistpage a:link {
+   font-size: 13pt;
+}
+
+#top_artistpage a:hover {
+    background-color: 	#FFFF66;
+}
+
+#top_artistpage  h1{
+	
+     	font-family: 'Open Sans', sans-serif;
+     	font-size: 15pt;
+	color:	black;
+	font-weight: 8px;
+
+ 
+	
+}
+
+#top_artistpage  h3{
+
+	display:inline;
+     	font-family: 'Open Sans', sans-serif;
+     	font-size: 28pt;
+	color:#660099;
+	font-weight: 3px;
+     	background-color:#00FFCC;
+ 
+	
+}
+
+#top_artistpage  h4{
+
+	display:inline;
+    	font-family: 'Englebert', sans-serif;
+    	color: #2F74D0;
+	font-size: 28pt;
+	font-weight: 3px;
+}
+
+#top_songpage a:link {
+   font-size: 13pt;
+}
+
+/* design of Song page */
+
+#top_songpage a:hover {
+    background-color: 	#FFFF66;
+}
+
+#top_songpage  h1{
+		
+     	font-family: 'Open Sans', sans-serif;
+     	font-size: 15pt;
+	 color:	black;
+	 font-weight: 8px;
+
+ 
+	
+}
+
+#top_songpage  h3{
+
+	display:inline;
+     	font-family: 'Open Sans', sans-serif;
+     	font-size: 28pt;
+	color:#660099;
+	font-weight: 3px;
+     	background-color:#00FFCC;
+ 
+	
+}
+
+#top_songpage  h4{
+
+	display:inline;
+    	font-family: 'Englebert', sans-serif;
+    	color: #2F74D0;
+	font-size: 28pt;
+	font-weight: 3px;
+}
+
+/* Containers for the different pages */
+
+.container
+{
+
+    width: 1150px;
+    margin: 0px auto;
+}
+
+
+.container2
+{
+
+    width: 1080px;
+    margin: 0px auto;
+}
+
+
+.container_songpage
+{
+
+    	width: 1100px;
+	height: 700px;
+}
+
+
+.container_optionspage
+{
+
+    	width: 1300px;
+	height: 900px;
+    	margin: 0px auto;
+}
+
+
+.container_artistpage
+{
+
+    	width: 1300px;
+	height: 900px;
+}
+
+
+
+
+.clearfix
+{
+    clear: both;
+}
+
+/** HEADER */
+
+#header
+{
+    overflow: hidden;
+    width: 1150px;
+    padding: 0px 40px;
+}
+
+/** LOGO */
+
+#logo
+{
+    position: relative;
+    left: 33px;
+    top: 20px;
+
+}
+
+
+
+#logo h1, #logo p
+{
+}
+
+#logo h1 a
+{
+    line-height: 130px;
+
+}
+
+/** MENU */
+
+#menu
+{
+    position: relative;
+    right: -800px;
+    width: 320px;
+    height: 80px;
+    margin-top: -90px;
+
+    background: #660099;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,.10);
+    border-radius: 20px 20px 0px 0px;
+}
+
+#menu ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+
+#menu li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#menu a
+{
+    display: block;
+    line-height: 80px;
+    text-decoration: none;
+    font-family: 'Englebert', sans-serif;
+    font-size: 1.50em;
+    color: #FFFFFF;
+}
+
+#menu a:hover
+{
+    text-decoration: underline;
+    background-color: initial;
+}
+
+/** PAGE */
+
+#page
+{
+    overflow: hidden;
+    padding: 50px 40px;
+}
+
+#page h2
+{
+	font-size: 25px;
+	text-decoration: underline;
+    	padding-bottom: 10px;
+}
+
+/** CONTENT */
+
+#content
+{
+    float: left;
+    width: 600px;
+}
+
+/** SIDEBAR */
+
+#sidebar
+{
+    float: right;
+    width: 280px;
+}
+
+#sidebar #sbox1
+{
+    margin-bottom: 30px;
+}
+
+/* Footer */
+
+#footer
+{
+    overflow: hidden;
+    padding: 30px 0px;
+    color: #C54F7F;
+}
+
+#footer p
+{
+    text-align: center;
+}
+
+#footer a
+{
+    color: #CE6790;
+}
+
+.image-style img
+{
+    margin-bottom: 2em;
+    border-radius: 30px;
+}
+
+/** LIST STYLE 1 */
+
+.list-style1
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #777777;
+}
+
+.list-style1 li
+{
+    padding: 10px 0px 10px 0px;
+    border-top: 1px solid #D6D6D6;
+}
+
+.list-style1 a
+{
+    color: #777777;
+}
+
+.list-style1 h3
+{
+    padding: 10px 0px 5px 0px;
+    font-weight: 500;
+    color: #444444;
+}
+
+.list-style1 .posted
+{
+    padding: 0px 0px 0px 0px;
+}
+
+.list-style1 .first
+{
+    border-top: 0px;
+    padding-top: 0px;
+}
+
+/** LIST STYLE 2 */
+
+.list-style2
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.list-style2 li
+{
+    padding: 10px 0px 20px 0px;
+    border-top: 1px solid #C9C9C9;
+}
+
+.list-style2 a
+{
+    color: #777777;
+}
+
+.list-style2 .first
+{
+    padding-top: 0px;
+    border-top: 0px;
+}
+
+.link-style1
+{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right:10px;
+    background: #8C2287;
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Englebert', sans-serif;
+    font-size: 1.50em;
+    color: #FFFFFF;
+}
+
+
+
+/** SCROLL SCETIONS */
+
+.scroll{
+
+    border-style: hidden;
+    width: 1300px;
+    height: 900px;
+    overflow: hidden;
+}
+
+
+.scrollsection1 {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 1220px;
+    	height: 200px;
+    	overflow: scroll;
+
+}
+
+
+.scrollsection2{
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 240px;
+    	height: 320px;
+    	overflow: scroll;
+
+}
+
+.scrollsection3 {
+	float:left; 
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	margin-left: 20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 510px;
+    	height: 320px;
+    	overflow: scroll;
+
+}
+
+
+
+.scrollsection4 {
+	float:left;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 340px;
+    	height: 320px;
+    	overflow: scroll;
+
+}
+
+
+.scrollsection5 {
+	float:left;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 815px;
+    	height: 130px;
+    	overflow: scroll;
+
+}
+
+.scrollsection1_artistpage {
+	float:left; 
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 850px;
+   	height: 200px;
+    	overflow: scroll;
+
+}
+
+/** SCROLL SECTIONS ARTIST PAGE */
+
+.scrollsectionpicture_artistpage {
+	float:left; 
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	border-style:solid;
+	border-width: 2px;
+        border-color: #8C2287;
+        background-color: white;
+	font-size:17px;
+        width: 330px;
+        height: 220px;
+        overflow: scroll;
+
+}
+
+
+
+.scrollsection2_artistpage {
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+        border-color: #8C2287;
+        background-color: white;
+	font-size:17px;
+        width: 365px;
+        height: 250px;
+        overflow: scroll;
+}
+
+
+
+
+
+.scrollsection3_artistpage {
+	float:left;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+        border-color: #8C2287;
+        background-color: white;
+	font-size:17px;
+        width: 370px;
+        height: 250px;
+        overflow: scroll;
+
+}
+
+.scrollsection4_artistpage {
+	float:left;
+	margin-bottom: 20px;
+	margin-left:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+  	border-color: #8C2287;
+        background-color: white;
+	font-size:17px;
+        width: 320px;
+        height: 260px;
+        overflow: scroll;
+
+}
+
+.scrollsection5_artistpage {
+	float:left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+        border-color: #8C2287;
+        background-color: white;
+	font-size:17px;
+        width: 850px;
+        height: 130px;
+        overflow: scroll;
+
+}
+
+.scrollsection1_songpage {
+	float:left; 
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+	border-color: #8C2287;
+   	background-color: white;
+	font-size:17px;
+	width: 600px;
+	height: 250px;
+    	overflow: scroll;
+
+}
+
+/** SCROLL SECTIONS SONG PAGE */
+
+.scrollsectionvideo_songpage {
+	float:left; 
+	margin-right: 80px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 370px;
+    	height: 250px;
+    	overflow: scroll;
+
+}
+
+.scrollsection2_songpage {
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 160px;
+    	height: 200px;
+    	overflow: scroll;
+}
+
+.scrollsection3_songpage {
+	float:left;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 375px;
+    	height: 200px;
+    	overflow: scroll;
+
+}
+
+
+.scrollsection4_songpage {
+	float:left;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 370px;
+    	height: 200px;
+    	overflow: scroll;
+
+}
+
+.scrollsection5_songpage {
+	float:left;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 370px;
+    	height: 250px;
+    	overflow: scroll;
+
+}
+
+.scrollsection6_songpage {
+	float:left; 
+	margin-bottom: 10px;
+	margin-left:-110px;
+	margin-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 800px;
+    	height: 400px;
+    	overflow: scroll;
+
+}
+
+.scrollsection7_songpage {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left:100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+	border-color: #8C2287;
+	background-color: white;
+	font-size:17px;
+	width: 800px;
+	height: 600px;
+	overflow: scroll;
+
+}
+
+
+.scrollsection8_songpage {
+	float:left; 	
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+	background-color: white;
+	border-color: #8C2287;   	
+	font-size:17px;
+	width: 900px;
+	height: 400px;
+   	overflow: hidden;
+
+}
+
+.scrollsection_update {
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 0px;
+    	border-color: #8C2287;
+    	background-color: #75ECFD;
+	text-align:center;
+	font-size:17px;
+        width: 1035px;
+   	height: 20px;
+   	overflow: hidden;
+
+}
+
+.scrollsection_update_medium {
+	
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 0px;
+    	border-color: #8C2287;
+    	background-color: #75ECFD;
+	text-align:center;
+	font-size:17px;
+        width: 1057px;
+   	height: 20px;
+   	overflow: hidden;
+
+}
+
+.scrollsection_update_big {
+	
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 0px;
+    	border-color: #8C2287;
+    	background-color: #75ECFD;
+	text-align:center;
+	font-size:17px;
+        width: 1235px;
+   	height: 20px;
+   	overflow: hidden;
+
+}
+
+.scrollsection_searchpage {
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 0px;
+    	border-color: #8C2287;
+    	background-color: #75ECFD;
+	text-align:center;
+	font-size:17px;
+        width: 600px;
+   	height: 40px;
+   	overflow: hidden;
+
+}
+
+
+/** SCROLL SECTIONS ARTIST PAGE - NEW STYLE */
+
+.scrollsection1_artistnew {
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 850px;
+    	height: 260px;
+    	overflow: scroll;
+
+}
+
+
+.scrollsection2_artistnew{
+	float:left;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 320px;
+    	height: 260px;
+    	overflow: scroll;
+
+}
+
+.scrollsection3_artistnew {
+	float:left;
+margin-left:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 320px;
+    	height: 300px;
+    	overflow: scroll;
+
+}
+
+
+
+.scrollsection4_artistnew {
+	float:left;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+	border-color: #8C2287;
+	background-color: white;
+	font-size:17px;
+	width: 277px;
+	height: 300px;
+	overflow: scroll;
+
+}
+
+
+.scrollsection5_artistnew {
+	float:left;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+    	border-color: #8C2287;
+    	background-color: white;
+	font-size:17px;
+    	width: 260px;
+    	height: 300px;
+    	overflow: scroll;
+
+}
+
+.scrollsection6_artistnew {
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	border-style:solid;
+	border-width: 2px;
+	border-color: #8C2287;
+	background-color: white;
+	font-size:17px;
+	width: 185px;
+	height: 300px;
+	overflow: scroll;
+
+}
+
+
+
+.youtube-player{
+float:right;
+
+}
+
+/** Index page top design **/
+
+.musicnotes{
+
+    width: 920px;
+    background-image: url("note5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/** BUTTONS **/
+
+.button1 {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #660099;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+
+.button1:hover {background-color: #DD75DD}
+
+.button1:active {
+  background-color: #DD75DD;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.button2 {
+   background:none;
+ margin-bottom:10px;
+ cursor: pointer;
+
+
+}
+
+
+.button2:hover {opacity: 0.7;}
+
+.button2:active {
+ 
+  transform: translateY(4px);
+}
